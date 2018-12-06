@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Chloe's Swim School | Home</title>
+
+  <!-- Link to Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!-- any Google fonts you use go here -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand" rel="stylesheet">
+
+
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+  <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER the link to the Bootstrap CSS, the way it does here. -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+ <!--- Header, Change id=current to current page!!!--->
+ <header class='container-fluid'>
+    <div class='row' id='heading'>
+     <h1 class='col-xl-9'><strong>Chloe's Swim School</strong></h1>
+    </div>
+ </header>
+ <nav class= 'navbar navbar-expand-xl navbar-light'>
+       
+        <button class='navbar-toggler' type="button" data-toggle='collapse' data-target='#apple'aria-controls="apple" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        
+        <div class='collapse navbar-collapse' id='apple'>
+            <ul class='navbar-nav'>
+               <li class='nav-item'>
+    <!--- erase id from here, add to <h3> for current page--->
+                   <a class='nav-link' href='index.html' ><h3 id='current'>Home</h3></a>
+               </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='about.html'><h3>About</h3></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='lessons.html'><h3>Lessons and Rates</h3></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='locations.html'><h3>Locations</h3></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href='contact.html'><h3>Contact</h3></a>
+                </li>
+            </ul>
+        </div>
+        <form action='contact.html' class='col-xl'>
+        <button type='submit' class='col-xl btn shadow p-3 mb-5'><strong>Sign Up Today</strong></button></form>
+
+    </nav>
+ <main class='container-fluid'>
+     <div class='row'>
+         <img src = "images/main.png" class='img-fluid mainpic col-xl-12 picture' alt='Little girls swimming' id=''>
+     </div>
+     <div class='row lessons'>
+         <div class='col-xl-4'>
+         <img src="images/beginner.png" class='img-fluid' alt='floaties'> 
+         <h2>Beginner</h2>
+         <h3>All Ages</h3>
+         <form action='lessons.html#begin'>
+             <button type='submit' class='shadow p-3 mb-5'><strong>LEARN MORE</strong></button>
+         </form>
+         </div>
+         <div class='col-xl-4'>
+            <img src="images/intermediate.png" class='img-fluid' alt='floaties'> 
+         <h2>Intermediate</h2>
+         <h3>All Ages</h3>
+         <form action='lessons.html#inter'>
+             <button type='submit' class='shadow p-3 mb-5'><strong>LEARN MORE</strong></button>
+         </form>
+         </div>
+         <div class='col-xl-4'>
+             <img src="images/advanced.png" class='img-fluid' alt='floaties'> 
+             <h2>Advanced</h2>
+             <h3>All Ages</h3>
+         <form action='lessons.html#end'>
+             <button type='submit' class='shadow p-3 mb-5'><strong>LEARN MORE</strong></button>
+         </form>
+         </div>
+     </div>
+ </main>
+ <!--- Leave this alone, footer--->
+ <footer class='container-fluid'>
+     <div class='row'>
+        <aside class='col-xl-9'>
+            <h4>Information</h4>
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='about.html'>About</a></li>
+                <li><a href='lessons.html'>Lessons and Rates</a></li>
+                <li><a href='locations.html'>Locations</a></li>
+                <li><a href='contact.html'>Contact</a></li>
+            </ul>
+        </aside> 
+        <aside class='col-xl-3'>
+            <h4>Contact</h4>
+            <ul>
+                <li>Phone:(919)-909-2373</li>
+                <li>Email: crkent@live.unc.edu</li>
+            </ul>
+        </aside>
+     </div>
+     <div class='row'>
+         Copyright &copy; 2018 Chloe's Swim School
+     </div>
+ </footer>
+  
+  
+  <!-- jQuery--this must come first! -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  
+  <!-- popper.js--a library of drop-down and pop-up JavaScript scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  
+  <!-- unique Bootstrap 4 JavaScript scripts -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
